@@ -1,0 +1,40 @@
+table { /*style the whole table*/
+    margin: auto;
+}
+
+input { /*style outside the digits but inside the border*/
+    border-radius:5px;
+    border: 5px  ;
+    font-size: 15px;
+    height: 60px;
+    width: 50px;
+}
+
+/* button {
+    border-radius: 20px;
+    font-size: 35px;
+    background-color: grey;
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+
+} */
+
+.calculator {    /*style the table structure*/
+    height: 300px;
+    width: 310px;
+    border: 5px;
+    background-color: rgb(210, 215, 220);
+    border: solid rgb(67, 57, 57);
+    padding: 10px;
+    display: inline-block;
+}
+
+.display-box {  /*style display screen of the calculator*/
+    font-family: Times New Roman;
+    background-color: white;
+    color: black;
+    border: solid rgba(180, 145, 145, 0.6);
+    width:auto;
+    height: max-content;
+}
